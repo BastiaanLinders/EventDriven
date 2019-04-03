@@ -26,7 +26,7 @@ namespace Sandbox.Examples
 
 		private static void RegisterForAllImplementedInterfaces(Type typeToRegister, Func<Type, Type, IServiceCollection> scopedRegistration)
 		{
-			Type[] implementedInterfaces = typeToRegister.GetInterfaces();
+			var implementedInterfaces = typeToRegister.GetInterfaces();
 			foreach (var implementedInterface in implementedInterfaces)
 			{
 				scopedRegistration.Invoke(implementedInterface, typeToRegister);

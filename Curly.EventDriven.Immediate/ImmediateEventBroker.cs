@@ -20,8 +20,8 @@ namespace Curly.EventDriven.Immediate
 		public void Publish<T>(T logicEvent) where T : IEvent
 		{
 			_logger.LogTrace($"Event was published of type {typeof(T)}");
-			var handlers = ((IEnumerable<IHandle<T>>) _serviceProvider.GetService(typeof(IEnumerable<IHandle<T>>)))
-				.ToList();
+
+			var handlers = ((IEnumerable<IHandle<T>>) _serviceProvider.GetService(typeof(IEnumerable<IHandle<T>>))).ToList();
 
 			foreach (var handler in handlers)
 			{

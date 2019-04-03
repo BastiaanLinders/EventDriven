@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>Separation of Concerns, SoC, Event driven</PackageTags>
+    <Authors>Bastiaan Linders</Authors>
+    <Company />
+    <Product>Curly.EventDriven.Abstractions</Product>
+    <PackageId>Curly.EventDriven.Abstractions</PackageId>
+    <Description>Abstractions required by Curly.EventDriven implementations to help you separate your program into distinct sections (separation of concerns).</Description>
+    <Copyright>Copyright (c) 2019 Bastiaan Linders</Copyright>
+    <PackageLicenseUrl>https://github.com/BastiaanLinders/EventDriven/wiki/License</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/BastiaanLinders/EventDriven</PackageProjectUrl>
+    <PackageReleaseNotes>Initial abstractions for a dead simple event broker implementation which handles all events immediately and synchronously.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
