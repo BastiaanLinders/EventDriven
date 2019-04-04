@@ -2,6 +2,6 @@
 {
 	public interface IHandle<in T> where T : IEvent
 	{
-		void Handle(T logicEvent);
+		void Handle(T @event);
 	}
 }

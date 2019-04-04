@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Curly.EventDriven.Abstractions\Curly.EventDriven.Abstractions.csproj" />
+    <PackageReference Include="Curly.EventDriven.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Sandbox.Abstractions\Sandbox.Abstractions.csproj" />
   </ItemGroup>
 
