@@ -14,8 +14,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Abstractions", "Sandbox.Abstractions\Sandbox.Abstractions.csproj", "{CB0A733B-D182-4549-BA51-D7117E7AEF9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B5F161CA-FE90-4563-BDE1-F47F8A0928F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assorted", "Assorted", "{16171B1A-4053-4D23-84F7-6FD90E320491}"
 	ProjectSection(SolutionItems) = preProject
-		publish.txt = publish.txt
+		Assorted\nuget.exe = Assorted\nuget.exe
+		Assorted\publish.txt = Assorted\publish.txt
 	EndProjectSection
 EndProject
 Global
