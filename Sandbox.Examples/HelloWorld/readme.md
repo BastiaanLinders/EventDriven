@@ -1,5 +1,4 @@
-﻿
-# Example - Hello world
+﻿# Example - Hello world
 Packages:
 - `Curly.EventDriven.Abstractions`
 - `Curly.EventDriven.Immediate`
