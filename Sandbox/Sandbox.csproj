@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Curly.EventDriven.Immediate" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
@@ -14,8 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Curly.EventDriven.Abstractions\Curly.EventDriven.Abstractions.csproj" />
-    <ProjectReference Include="..\Curly.EventDriven.Immediate\Curly.EventDriven.Immediate.csproj" />
     <ProjectReference Include="..\Sandbox.Abstractions\Sandbox.Abstractions.csproj" />
     <ProjectReference Include="..\Sandbox.Examples\Sandbox.Examples.csproj" />
   </ItemGroup>

@@ -4,7 +4,7 @@ using Curly.EventDriven.Immediate;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Sandbox.Abstractions;
-using Sandbox.Examples.Basic;
+using Sandbox.Examples.HelloWorld;
 
 namespace Sandbox
 {
@@ -14,7 +14,7 @@ namespace Sandbox
 		{
 			Console.WriteLine("Application start.");
 
-			SandboxTestBootstrapper bootstrapper = new BasicExampleBootstrapper();
+			SandboxTestBootstrapper bootstrapper = new HelloWorldBootstrapper();
 
 			Console.WriteLine($"Bootstrapping with '{bootstrapper.GetType()}'");
 			var scopedServiceProvider = BuildServiceProvider(bootstrapper).CreateScope().ServiceProvider;

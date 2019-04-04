@@ -1,7 +1,7 @@
 ﻿namespace Curly.EventDriven.Abstractions
 {
-	public interface IHandle<in T> where T : IEvent
+	public interface IHandle<in TEvent> where TEvent : IEvent
 	{
-		void Handle(T logicEvent);
+		void Handle(TEvent @event);
 	}
 }
