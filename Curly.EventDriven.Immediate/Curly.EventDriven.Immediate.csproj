@@ -10,6 +10,7 @@
     <PackageTags>Separation of Concerns, SoC, Event driven</PackageTags>
     <PackageReleaseNotes>Initial implementation of a dead simple event broker which handles all events immediately and synchronously.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
