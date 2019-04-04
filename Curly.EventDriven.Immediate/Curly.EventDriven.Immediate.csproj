@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Bastiaan Linders</Authors>
+    <Description>Dead simple implementation of Curly.EventDriven.Abstractions. This EventBroker handles events immediately and synchronously, purely focused to keep your code compartmentalized.</Description>
+    <Copyright>Copyright (c) 2019 Bastiaan Linders</Copyright>
+    <PackageLicenseUrl>https://github.com/BastiaanLinders/EventDriven/wiki/License</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/BastiaanLinders/EventDriven</PackageProjectUrl>
+    <PackageTags>Separation of Concerns, SoC, Event driven</PackageTags>
+    <PackageReleaseNotes>Initial implementation of a dead simple event broker which handles all events immediately and synchronously.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Curly.EventDriven.Abstractions\Curly.EventDriven.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

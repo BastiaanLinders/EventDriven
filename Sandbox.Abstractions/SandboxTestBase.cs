@@ -1,0 +1,13 @@
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace Sandbox.Abstractions
+{
+	public abstract class SandboxTestBootstrapper
+	{
+		/// <summary>
+		///     Post: ServiceCollection must contain an instance of ISandboxTest.
+		/// </summary>
+		/// <param name="services"></param>
+		public abstract void RegisterDependencies(IServiceCollection services);
+	}
+}
